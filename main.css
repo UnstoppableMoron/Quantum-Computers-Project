@@ -47,6 +47,11 @@ nav {
     z-index: 1;
 }
 
+a {
+    text-decoration: none;
+    color: #000000 !important;
+}
+
 .ham-menu {
     height: 50px;
     width: 50px;
@@ -116,7 +121,7 @@ nav {
 .textWrapper {
     border: 3px solid black;
     border-radius: 40px;
-    width: 900px;
+    width: 50%;
     text-align: center;
     background-color: rgb(36, 36, 36);
     color: #CB9437;
@@ -126,7 +131,7 @@ nav {
     border: 3px solid #000000;
     width: 500px;
     text-align: center;
-    color: #eba224;
+    color: #ffb639;
     height: 200px;
     margin-top: 120px;
 }
@@ -139,4 +144,26 @@ nav {
 #col2 {
     margin-left: 50px;
     margin-right: 50px;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background: black;
+    margin-top: 140px;
+    align-items: center;
+}
+
+.footerText {
+    color: #000000;
+    background-color: #CB9437;
+    border: 3px black solid;
+    border-radius: 20px;
+    width: 40%;
+    text-align: center;
+    margin-left: 30%;
+}
+
+.footerLink {
+    margin: 15px;
 }
